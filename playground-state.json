@@ -1,0 +1,40 @@
+{
+  "updated_at": "2026-11-08T01:19:00+05:30",
+  "updated_at_label": "Sun 8 Nov, 01:19 AM IST",
+  "source": "Zara's queue — updated by Zara after real work events",
+  "workers": [
+    {"id": "zara", "name": "Zara", "role": "Coordinator", "status": "working", "current_task": "Morning brief — 7:00 AM", "progress": 0, "site": "post-office"},
+    {"id": "jarvis", "name": "JARVIS-2.0", "role": "Voice assistant app", "status": "waiting", "current_task": "On-device QA of v2.0.4", "progress": 100, "site": "jarvis", "waiting_text": "Waiting on Nshd: install the v2.0.4 build and test Live Bridge"},
+    {"id": "builder", "name": "Builder", "role": "App builds", "status": "working", "current_task": "Rebuilding the Playground city", "progress": 60, "site": "workshop"},
+    {"id": "research", "name": "Research", "role": "Research & planning", "status": "waiting", "current_task": "Project X field pick", "progress": 70, "site": "project-x", "waiting_text": "Waiting on Nshd: pick a pharma field from the 7-field map"},
+    {"id": "vanessa", "name": "Voice Vanessa", "role": "Voice & video", "status": "idle", "current_task": null, "progress": 0, "site": "plaza"},
+    {"id": "memory", "name": "Memory Keeper", "role": "Memory & notes", "status": "working", "current_task": "Keeping the queue in sync", "progress": 40, "site": "brain"}
+  ],
+  "projects": [
+    {"id": "jarvis", "name": "JARVIS-2.0", "detail": "v2.0.4 (F15) shipped 26 Oct — Live Bridge + CLI", "status": "shipped", "progress": 100, "waiting_on_nshd": true, "waiting_text": "On-device QA owed"},
+    {"id": "nur", "name": "NUR-M3", "detail": "Redesign PR #18 open — warm ivory theme", "status": "waiting", "progress": 90, "waiting_on_nshd": true, "waiting_text": "Merge is one tap away"},
+    {"id": "project-x", "name": "AI x Pharma X", "detail": "7-field map delivered 4 Nov", "status": "waiting", "progress": 70, "waiting_on_nshd": true, "waiting_text": "Field pick owed"},
+    {"id": "kidzone", "name": "Kidzone Cradle", "detail": "Sister's shop — site skeleton ready", "status": "waiting", "progress": 30, "waiting_on_nshd": true, "waiting_text": "Needs sister's 3 answers (prices, WhatsApp number, photos)"},
+    {"id": "studyflow", "name": "StudyFlow", "detail": "Promo video built 23 Oct", "status": "waiting", "progress": 80, "waiting_on_nshd": true, "waiting_text": "Promo verdict owed"},
+    {"id": "evolve", "name": "EVOLVE", "detail": "Self-improvement web-app concept", "status": "concept", "progress": 20, "waiting_on_nshd": false, "waiting_text": ""},
+    {"id": "extcloud", "name": "ExT-Cloud", "detail": "Live since 21 Oct — CloudStream repo", "status": "live", "progress": 100, "waiting_on_nshd": false, "waiting_text": ""},
+    {"id": "freellm", "name": "Gemini-FreeLLM", "detail": "v2.2.4 Aurora fix round — retest owed", "status": "waiting", "progress": 95, "waiting_on_nshd": true, "waiting_text": "On-device retest owed"},
+    {"id": "portfolio", "name": "Portfolio", "detail": "Floating-pill-nav rebuild pinged 3 Nov", "status": "waiting", "progress": 75, "waiting_on_nshd": true, "waiting_text": "Needs his real photos"}
+  ],
+  "queue": [
+    {"task": "Morning brief — 7:00 AM", "owner": "zara"},
+    {"task": "Night dev updates — 9:14 PM", "owner": "zara"},
+    {"task": "Vi recharge watch — Rs 199 due Mon 9 Nov", "owner": "zara"},
+    {"task": "Google AI Plus student offer — claim by 31 Dec", "owner": "zara"},
+    {"task": "NUR PR #18 merge", "owner": "jarvis"},
+    {"task": "Project X field pick", "owner": "research"}
+  ],
+  "feed": [
+    {"time": "2026-11-08 01:15 IST", "text": "Nshd opened the Playground on his phone — mobile layout flagged"},
+    {"time": "2026-11-08 00:52 IST", "text": "Playground went live as a Bot Crossing-style workflow city"},
+    {"time": "2026-11-07 23:41 IST", "text": "Agent Town built — Brain HQ, Windmill, Post Office, Lab"},
+    {"time": "2026-11-07 18:46 IST", "text": "Trading paper-drill plan sent to the Trading chat"},
+    {"time": "2026-11-06 18:42 IST", "text": "YouTube channel recovery steps sent for gotly.roblox@gmail.com"},
+    {"time": "2026-11-04 09:14 IST", "text": "Night dev updates re-enabled at his request"}
+  ]
+}
